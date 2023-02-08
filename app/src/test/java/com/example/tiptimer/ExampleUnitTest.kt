@@ -1,4 +1,4 @@
-package com.example.affirmations
+package com.example.tiptimer
 
 import org.junit.Test
 
