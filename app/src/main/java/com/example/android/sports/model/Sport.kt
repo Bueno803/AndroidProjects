@@ -13,13 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package com.example.android.sports.model
 
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-rootProject.name = "Sports"
-include ':app'
+import com.example.android.sports.R
+
+/**
+ * Data model for each row of the RecyclerView
+ */
+data class Sport(
+    val id: Int,
+    val titleResourceId: Int,
+    val subTitleResourceId: Int,
+    val imageResourceId: Int,
+    val sportsImageBanner: Int,
+    val newsDetails: Int = R.string.sports_news_detail_text
+)
+
