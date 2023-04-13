@@ -1,0 +1,4 @@
+#Thu Apr 13 13:49:52 EDT 2023
+base.0=G\:\\androidprojects\\TiltSpot_Final\\TiltSpot\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+path.0=classes.dex
